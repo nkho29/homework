@@ -1,4 +1,7 @@
 1  git status
 2  git add .
-3  git commit -m "descrip"
+3  git commit -m "description"
 4  git push
+and elif if raise assert except
+Змінна це - об'єкт програми що має ім'я та значення
+Об'єкт це - місце в пам'яті певного типу
