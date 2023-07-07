@@ -5,3 +5,14 @@
 and elif if raise assert except
 Змінна це - об'єкт програми що має ім'я та значення
 Об'єкт це - місце в пам'яті певного типу
+
+for num in numbers:
+    if num % 2 == 0:
+            print(num)
+Виведення парних чисел list
+
+for key in key_to_remove:
+    if key in dict1:
+        del dict1[key]
+Додавання декількох елементів до dict
+
