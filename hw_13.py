@@ -1,9 +1,12 @@
 import time
 
+time.gmtime()
+
 current_time = time.localtime()
 print(f"Зараз: {current_time}")
 
-start_time = time.time
+start_time = time.time()
+print(start_time)
 
 
 list_iter = [False, 2, 3, "hello", 50]
@@ -21,10 +24,10 @@ print(list_compreh1)
 
 
 for i in range(4):
-    print(i)
+    print(i, end="")
 
 list_compreh2 = [i for i in range(4)]
-print(list_compreh2)
+print(list_compreh2end)
 
 list_4 = []
 for i in range(0,20,2):
