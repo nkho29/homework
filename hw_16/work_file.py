@@ -40,7 +40,6 @@ shop_info = [
     ["Strawberries", 14, "2kg"]
 ]
 
-with open("empty_csv.csv", "w") as file:
+with open("empty_csv.csv", "a") as file:
     writer = csv.writer(file)
-    writer.writerow(shop_info[0])
-    writer.writerows(shop_info[1:])
+    writer.writerows(shop_info[:])
