@@ -16,3 +16,6 @@ for key in key_to_remove:
         del dict1[key]
 Додавання декількох елементів до dict
 
+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 token
+
+
