@@ -1,0 +1,74 @@
+   35  mkdir "HW_1"
+   36  cd HW_1
+   37  ls
+   38  mkdir lesson_2
+   39  ls
+   40  cd lesson_2/
+   41  mkdir Team
+   42  ls
+   43  rm -r Team
+   44  ls
+   45  mkdir Team
+   46  rm -r Team/
+   47  mkdir Team_Developer
+   48  mkdir Directory
+   49  mkdir File
+   50  ls
+   51  rm -r Team_Developer/
+   52  mkdir Team
+   53  mkdir Developer
+   54  ls
+   55  cd Directory/
+   56  .mkdir Dir_1
+   57  mkdir la Dir_1
+   58  ls
+   59  rm Dir_1/
+   60  rm -r Dir_1/
+   61  rm -r la
+   62  mkdir .Dir_1
+   63  ls
+   64  ls -la
+   65  mkdir dir_2
+   66  cd ..
+   67  ls
+   68  cd file
+   69  ls
+   70  touch .file_1.txt
+   71  ls
+   72  ls -la
+   73  touch file_2.txt
+   74  cd..
+   75  cd ..
+   76  ls
+   77  cp Directory/
+   78  cd Directory/
+   79  cp
+   80  cp --help
+   81  ls
+   82  cd ..
+   83  cp -r Directory/ File/
+   84  mv File/ Directory/
+   85  ls
+   86  cd developer
+   87  ls
+   88* mkdir Trainee/Junior
+   89  mkdir Trainee
+   90  cd Trainee/
+   91  mkdir Junior
+   92  cd Junior/
+   93  ls
+   94  mkdir Senior
+   95  cd Senior/
+   96  mkdir Team_Lead
+   97  cd Team_Lead/
+   98  touch Nazar_Khomych.html
+   99  nano Nazar_Khomych.html
+  100  cd ..
+  101  cd ..
+  102  cd ..
+  103  cd ..
+  104  cd ..
+  105  cd ..
+  106  ls
+  107  touch HW_1_Histry.txt
+  108  history
